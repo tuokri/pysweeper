@@ -7,7 +7,7 @@
  
 
 ### Features:
-#### 1. Customise grid dimensions and amount of bombs from user input.
-#### 2. Place bombs in random squares.
-#### 3. Implements flood fill algorithm to open empty squares.
-#### 4. Saves high scores to a file.
+1. #### Customise grid dimensions and amount of bombs from user input.
+2. #### Place bombs in random squares.
+3. #### Implements flood fill algorithm to open empty squares.
+4. #### Saves high scores to a file.
