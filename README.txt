@@ -1,5 +1,3 @@
-Tekijä: Tuomo Kriikkula
-Opiskelijanumero: 2311933
+How to play:
 
-Käynnistä peli:
 python3 main.py
