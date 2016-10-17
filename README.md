@@ -11,3 +11,4 @@
 - Place bombs in random squares.
 - Implements flood fill algorithm to open empty squares.
 - Saves high scores to a file.
+- Probably unnecessarily heavy, because I wanted to experiment in Python OOP.
