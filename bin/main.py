@@ -118,6 +118,9 @@ def _get_mines(size_x, size_y):
     while True:
         try:
             m = int(input("Enter amount of mines: "))
+            if m > size_x * size_y - 1:
+                print("Too many mines.")
+                continue
             if m <= 0:
                 print("Amount of mines must be greater than zero.")
                 continue
