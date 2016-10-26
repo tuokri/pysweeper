@@ -114,7 +114,7 @@ def _get_selection():
 
 def _get_mines(size_x, size_y):
     print("\nChoose amount of mines and press enter.")
-    print("You may choose 1 to {} mines.".format(size_x * size_y))
+    print("You may choose 1 to {} mines.".format(size_x * size_y - 1))
     while True:
         try:
             m = int(input("Enter amount of mines: "))
