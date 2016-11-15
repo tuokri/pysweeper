@@ -12,7 +12,7 @@ class Square(object, metaclass=abc.ABCMeta):
 
     Methods:
         get_pos: Returns square's position as coordinate tuple (pos_x, pos_y).
-        reveal: Mark square as revealed. Sets self.revealed as True.
+        reveal: Mark square as revealed. Sets self.revealed to True.
 
         is_x methods return true if square is instance of class x.
         is_bomb: See above.
