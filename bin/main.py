@@ -49,9 +49,6 @@ def _print_scores():
     _clear()
     print("HIGH SCORES TOP 15")
     scores = _read_scores(SCOREFILE)
-    print()
-    print(scores)
-    print()
     scores.sort(key=lambda scores: scores, reverse=True)
     try:
         for i in range(15):
